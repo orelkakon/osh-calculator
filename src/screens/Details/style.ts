@@ -5,6 +5,13 @@ export const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: 'black',
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'flex-start'
+    },
+    input: {
+        height: 40,
+        margin: 12,
+        borderWidth: 1,
+        padding: 10,
+        color: "red"
     }
 })

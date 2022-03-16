@@ -38,7 +38,7 @@ export const styles = StyleSheet.create({
         bottom: 0,
         width: '100%',
         height: '12%',
-        backgroundColor: "gray"
+        backgroundColor: "gray",
     },
     footerText: {
         fontWeight: "bold",

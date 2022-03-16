@@ -1,7 +1,11 @@
-import { HomePage } from "./src/screens/HomePage"
+import { NavigationContainer } from '@react-navigation/native';
+import { MyStack } from "./src/routes/index"
 
 export default function App() {
   return (
-    <HomePage />
+    <NavigationContainer>
+      <MyStack />
+    </NavigationContainer>
+
   );
 }
