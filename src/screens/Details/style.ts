@@ -34,6 +34,46 @@ export const styles = StyleSheet.create({
     },
     text: {
         color: "white",
-        fontSize: 40
+        fontSize: 40,
+    },
+    genderButtonView: {
+        display: 'flex',
+        flexDirection: 'row',
+    },
+    maleButton: {
+        display: 'flex', 
+        justifyContent: 'center',
+        height: 40,
+        width: 45,
+        backgroundColor: 'transparent',
+        textAlign: "center",
+        borderStyle: "solid",
+        borderWidth: 1,
+        borderRadius: 100,
+        marginRight: 5
+    },
+    femaleButton: {
+        display: 'flex',
+        justifyContent: 'center',
+        height: 40,
+        width: 50,
+        backgroundColor: 'transparent',
+        textAlign: "center",
+        borderStyle: "solid",
+        borderWidth: 1,
+        borderRadius: 100,
+    },
+    maleText: {
+        textAlignVertical: "center",
+        fontSize: 23,
+        textAlign: "center",
+        color: "blue",
+        borderStyle: "solid"
+    },
+    femaleText: {
+        textAlignVertical: "center",
+        fontSize: 23,
+        textAlign: "center",
+        color: "pink"
     }
 })

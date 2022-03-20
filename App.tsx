@@ -4,7 +4,7 @@ import { MyStack } from "./src/routes/index"
 export default function App() {
   return (
     <NavigationContainer>
-      <MyStack />
+        <MyStack />
     </NavigationContainer>
 
   );

@@ -6,6 +6,7 @@ export const styles = StyleSheet.create({
         backgroundColor: 'black',
         alignItems: 'center',
         justifyContent: 'center',
+        paddingBottom: 20
     },
     logo: {
         width: 300,
@@ -14,8 +15,8 @@ export const styles = StyleSheet.create({
         marginBottom: 50
     },
     tinyLogo: {
-        width: 50,
-        height: 50,
+        width: 35,
+        height: 35,
         backgroundColor: 'transparent'
     },
     title: {
@@ -24,10 +25,11 @@ export const styles = StyleSheet.create({
         fontWeight: "bold",
     },
     button: {
-        fontSize: 35,
+        fontSize: 15,
         alignItems: 'center',
         justifyContent: 'center',
-        margin: 30
+        margin: 25,
+        marginBottom: 30
     },
     footer: {
         flex: 1,
@@ -37,7 +39,7 @@ export const styles = StyleSheet.create({
         position: "absolute",
         bottom: 0,
         width: '100%',
-        height: '12%',
+        height: '10%',
         backgroundColor: "gray",
     },
     footerText: {
